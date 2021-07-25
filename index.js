@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const fetch = require('node-fetch');
 const fs  = require('fs');
-const moment = require('moment');
 const bdd = require("./bdd.json");
 const memes = require('discord-meme-generator');
 const got = require('got');
