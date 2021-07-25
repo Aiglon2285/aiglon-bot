@@ -3,7 +3,6 @@ const bot = new Discord.Client();
 const fetch = require('node-fetch');
 const fs  = require('fs');
 const bdd = require("./bdd.json");
-const got = require('got');
 const { prefix } = require("./bdd.json");
 const talkedRecently = new Set();
 const stockfile = require("./stock.js") 
