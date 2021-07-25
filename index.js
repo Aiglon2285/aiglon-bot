@@ -5,6 +5,7 @@ const fs  = require('fs');
 const moment = require('moment');
 const bdd = require("./bdd.json");
 const memes = require('discord-meme-generator');
+const got = require('got');
 const randomPuppy = require('random-puppy');
 const { prefix } = require("./bdd.json");
 const talkedRecently = new Set();
